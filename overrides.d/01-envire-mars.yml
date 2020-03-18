@@ -1,21 +1,8 @@
 ---
-- pkg_set:github:/rock-simulation/package_set.git:
-    github: rauldg/simulation-package_set
-    branch: envireMars
 - simulation/mars/.*:
-    github: annaborn/mars
-    branch: envire_2020
-    tag: 
+    github: envire4mars/mars
+    branch: envire
     interactive: true
-- simulation/envire_managers:
-    github: annaborn/envire_managers.git
-    branch: envire2020
-    tag: 
-- tools/smurf:
-    branch: smurf_visual
-- envire/envire_smurf:
-    github: jura02/envire-envire_smurf
-    branch: smurf_visual
 #- simulation/orogen/mars:
 #    github: envire/simulation-orogen-envire_mars.git
 #    branch: envire_managers

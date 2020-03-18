@@ -2,6 +2,7 @@ package_sets:
   - github: rock-core/rock-package_set
   - github: rock-simulation/package_set
   - github: envire/envire-package_set
+  - github: envire4mars/envire4mars-package_set
   - dfkigit: compilerspeedup/package_set
   - dfkigit: models-robots/package_set
   - dfkigit: models-environments/package_set
@@ -12,12 +13,15 @@ layout:
   - simulation/envire_managers
   - simulation/envire_smurf_loader
   - simulation/envire_graphics
+  - simulation/envire_visual_debug
+  - simulation/mars/app
+  #- simulation/orogen/mars
+
   - models/robots/asguard_v4
   - models/robots/crex
   - models/robots/seekurjr
   - models/environments/rimres_crater
   - models/environments/spacebot_cup
-  - simulation/mars/app
-  #- simulation/orogen/mars
-  
+
+
 exclude_packages:
