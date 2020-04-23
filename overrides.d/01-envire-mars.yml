@@ -1,12 +1,4 @@
 ---
-- pkg_set:github:/rock-simulation/package_set.git:
-    github: rauldg/simulation-package_set
-    branch: envireMars
-- simulation/mars/.*:
-    github: annaborn/mars
-    branch: envire
-    tag: 
-    interactive: true
 - tools/smurf:
     branch: smurf_visual
 - envire/envire_smurf:

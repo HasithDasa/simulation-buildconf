@@ -1,0 +1,5 @@
+---
+  - simulation/mars/.*:
+      github: envire4mars/mars
+      branch: envire_plugins_available
+      interactive: true
