@@ -19,6 +19,7 @@ layout:
   - models/environments/rimres_crater
   - models/environments/spacebot_cup
   - simulation/mars/app
+  - envire/envire_visualizer
   #- simulation/orogen/mars
   
 exclude_packages:
