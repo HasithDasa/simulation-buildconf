@@ -13,6 +13,7 @@ layout:
   - simulation/envire_managers
   - simulation/envire_smurf_loader
   - simulation/envire_graphics
+  - simulation/envire_visual_debug
   - models/robots/asguard_v4
   - models/robots/crex
   - models/robots/seekurjr
