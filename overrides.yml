@@ -10,7 +10,7 @@ overrides:
       url: https://github.com/rock-simulation/console_bridge.git
   - simulation/mars/.*:
       github: envire4mars/mars
-      branch: envire_plugins_available
+      branch: use_osgviz_mars
       interactive: true
   - simulation/envire_managers:
       branch: envire_plugins_available
