@@ -6,6 +6,7 @@ package_sets:
   - dfkigit: compilerspeedup/package_set
   - dfkigit: models-robots/package_set
   - dfkigit: models-environments/package_set
+  - dfkigit: osgviz/package_set
 
 
 layout:
@@ -22,5 +23,6 @@ layout:
   - simulation/mars/app
   - envire/envire_visualizer
   #- simulation/orogen/mars
-  
+  - gui/osgviz_mars-plugins/mars_graphics  
+
 exclude_packages:
