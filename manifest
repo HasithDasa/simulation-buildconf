@@ -4,7 +4,9 @@ package_sets:
   - rock-simulation/simulation_package_set:
     github: envire4mars/simulation-package_set
     branch: ode16_install
-  - github: envire4mars/envire4mars-package_set
+  - envire4mars/envire4mars-package_set:
+    github: envire4mars/envire4mars-package_set
+    branch: envire_mls_plugin
   - dfkigit: compilerspeedup/package_set
   - dfkigit: models-robots/package_set
   - dfkigit: models-environments/package_set
