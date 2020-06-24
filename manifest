@@ -4,7 +4,7 @@ package_sets:
   - github: envire/envire-package_set
   - envire4mars/envire4mars-package_set:
     github: envire4mars/envire4mars-package_set
-    branch: envire_mls_plugin
+    branch: physics_plugins
   - dfkigit: compilerspeedup/package_set
   - dfkigit: models-robots/package_set
   - dfkigit: models-environments/package_set
