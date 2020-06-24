@@ -18,3 +18,5 @@ overrides:
       branch: envire_plugins_available
   - simulation/envire_mls:
       branch: initial_test
+  - envire/envire_collision:
+      branch: ode16_adaptation
