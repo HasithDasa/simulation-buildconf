@@ -16,6 +16,7 @@ layout:
   - simulation/envire_graphics
   - simulation/envire_visual_debug
   - simulation/envire_mls
+  - simulation/envire_graph_loader
   - models/robots/asguard_v4
   - models/robots/crex
   - models/robots/seekurjr
