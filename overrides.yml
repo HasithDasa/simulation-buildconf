@@ -20,3 +20,5 @@ overrides:
       branch: initial_test
   - envire/envire_collision:
       branch: ode16_adaptation
+  - simulation/envire_graph_loader:
+      branch: physics_plugins
