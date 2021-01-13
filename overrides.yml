@@ -22,3 +22,5 @@ overrides:
       branch: ode16_adaptation
   - simulation/envire_graph_loader:
       branch: physics_plugins
+  - simulation/envire_graphics:
+      branch: physics_plugin
