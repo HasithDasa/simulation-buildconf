@@ -12,3 +12,5 @@ overrides:
       github: envire4mars/mars
       branch: envire
       interactive: true
+  - models/robots/asguard_v4:
+      branch: physics_plugins
