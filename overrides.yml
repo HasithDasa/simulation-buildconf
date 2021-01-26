@@ -24,3 +24,5 @@ overrides:
       branch: physics_plugins
   - simulation/envire_graphics:
       branch: physics_plugin
+  - models/robots/asguard_v4:
+      branch: physics_plugins
