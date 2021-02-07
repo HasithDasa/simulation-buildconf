@@ -26,3 +26,5 @@ overrides:
       branch: physics_plugin
   - models/robots/asguard_v4:
       branch: physics_plugins
+  - tools/smurf:
+      branch: physics_plugins
