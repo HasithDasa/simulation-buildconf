@@ -9,8 +9,7 @@ overrides:
   - base/console_bridge:
       url: https://github.com/rock-simulation/console_bridge.git
   - simulation/mars/.*:
-      github: envire4mars/mars
-      branch: envire
+      branch: develop
       interactive: true
   - models/robots/asguard_v4:
       branch: physics_plugins
