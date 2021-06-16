@@ -30,13 +30,13 @@ From here on, perform the steps from the newly created directory.
 If your user has set up his/her keys in the github and gitlab account, then use this command
 
 ```
-   $ ruby autoproj_bootstrap git git@github.com:Rauldg/simulation-buildconf.git branch=envireMars
+   $ ruby autoproj_bootstrap git git@github.com:envire4mars/simulation-buildconf.git branch=envireMars
 ``` 
  
 If the user has not generated the SSH key and set it up in his/her github and gitlab account then use this command
 
 ```
-    $ ruby autoproj_bootstrap git https://github.com/Rauldg/simulation-buildconf.git branch=envireMars
+    $ ruby autoproj_bootstrap git https://github.com/envire4mars/simulation-buildconf.git branch=envireMars
 ```        
 
 Answer "whether C++11 should be enabled for Rock packages [false]" with "true" and the other with default (just hit enter)    
