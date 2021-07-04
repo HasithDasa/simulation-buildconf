@@ -18,6 +18,9 @@ overrides:
       branch: envire_plugins_available
   - simulation/envire_mls:
       branch: physics_plugin
+  - envire/fcl:
+      branch: master
+      commit: 4dceed14a98111448ebf0af743fd92bf06c51862
   - envire/envire_collision:
       branch: ode16_adaptation
   - simulation/envire_graph_loader:
