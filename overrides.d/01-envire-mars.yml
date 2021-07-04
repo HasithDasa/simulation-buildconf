@@ -3,7 +3,7 @@
     github: rauldg/simulation-package_set
     branch: envireMars
 - simulation/mars/.*:
-    github: annaborn/mars
+    github: envire4mars/mars
     branch: envire
     tag: 
     interactive: true
