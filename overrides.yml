@@ -10,7 +10,7 @@ overrides:
       url: https://github.com/rock-simulation/console_bridge.git
   - simulation/mars/.*:
       github: envire4mars/mars
-      branch: physics_plugins_rbs_202101
+      branch: physics_plugins_rbs_202107
       interactive: true
   - simulation/envire_managers:
       branch: physics_plugins
