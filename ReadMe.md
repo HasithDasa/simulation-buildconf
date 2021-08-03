@@ -101,3 +101,14 @@ If you are still having the same error, then you can try by removing ccache. The
 ```
      $ apt-get remove ccache
 ```
+## Introduction to Envire
+
+
+Envire is mainly used in navigation as a package for expressing arbitrary information about a robot's environment, but it could be extended to also include robot environment interaction for manipulation.
+The reason for having a common datastructure for representing the environment is to simplify the interchange of algorithms between applications. Envire package is mainly made up of three types of objects. 
+
+1) Maps - give information in a given reference frame.
+
+2) Frames - provide the spatial context for the maps
+
+2) Operators - carry out operations on maps by considering the maps' frame associations
