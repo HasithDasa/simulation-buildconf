@@ -134,7 +134,9 @@ The reason for having a common datastructure for representing the environment is
 
 ### MARS 
 
-MARS uses following multiple libraries 
+MARS (Machina Arte Robotum Simulans) is a cross-platform simulation and visualisation tool created for robotics research developed at the DFKI-RIC and the University of Bremen. It runs on (Ubuntu) Linux, Mac and Windows and consists of a core framework containing all main simulation components.
+
+Those Components are: 
 
 1) Open Scene Graph (OSG) for its visualisation
 2) Open Dynamics Engine (ODE) for the physical simulation
