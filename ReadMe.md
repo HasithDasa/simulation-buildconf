@@ -1,3 +1,9 @@
+## Contents
+
+0. [Quick Instructions](https://github.com/envire4mars/simulation-buildconf/blob/envireMars/ReadMe.md#quick-instructions)
+0. [TroubleShooting](https://github.com/envire4mars/simulation-buildconf/blob/envireMars/ReadMe.md#TroubleShooting)
+0. [Introduction to Envire and EnvireMars]
+
 ## Quick Instructions
 
 First of all, we need to Install MARS Environment. 
@@ -64,7 +70,7 @@ This step will start building everything.
 
 In mars_app you can load different environments and robots of your choice.
     
- ## TroubleShooting Section:
+ ## TroubleShooting
  
 1- No Access Right:
 
@@ -101,4 +107,40 @@ If you are still having the same error, then you can try by removing ccache. The
 ```
      $ apt-get remove ccache
 ```
-To do add documentation
+
+## Introduction to Envire and EnvireMars
+
+# Introduction to Envire
+
+Envire is mainly used in navigation as a package for expressing arbitrary information about a robot's environment, but it could be extended to also include robot environment interaction for manipulation.
+
+The reason for having a common datastructure for representing the environment is to simplify the interchange of algorithms between applications. Envire package is mainly made up of three types of objects. 
+
+1) Maps - give information in a given reference frame.
+
+2) Frames - provide the spatial context for the maps
+
+2) Operators - carry out operations on maps by considering the maps' frame associations 
+
+more details (http://envire.github.io/docs/intro_about_envire.html)
+
+# Introduction to Mars
+
+MARS uses following multiple libraries 
+
+1) Open Scene Graph (OSG) for its visualisation
+2) Open Dynamics Engine (ODE) for the physical simulation
+3) Qt for the GUI
+
+more details (https://github.com/rock-simulation/mars)
+
+
+
+
+
+
+
+
+
+
+
