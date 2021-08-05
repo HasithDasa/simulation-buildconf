@@ -110,6 +110,7 @@ If you are still having the same error, then you can try by removing ccache. The
 
 ## Introduction to Envire and EnvireMars
 
+### Envire
 
 The envire graph is the backbone of the whole library. It stores arbitrary data and time & space transformations between the data. 
 
@@ -123,8 +124,15 @@ The reason for having a common datastructure for representing the environment is
 
 2) Operators - carry out operations on maps by considering the maps' frame associations 
 
-more details (http://envire.github.io/docs/intro_about_envire.html), (https://www.dfki.de/fileadmin/user_upload/import/8365_Hidalgo-Carrio_et_al._-_2016_-_EnviRe_-_Environment_Representation_for_Long_Term_Autonomy.pdf), (https://github.com/envire/envire-envire_core#build-and-test-status)
+#### More details 
 
+0. [Official introduction to Envire](http://envire.github.io/docs/intro_about_envire.html)
+
+0. [Hidalgo Carrió, et al, EnviRe - Environment Representation for Long-term Autonomy, AI for Long-term Autonomy Workshop on the International Conference on Robotics and Automation (ICRA). IEEE International Conference on Robotics and Automation (ICRA-16), May 16-20, Stockholm, Sweden, 2016.](https://www.dfki.de/fileadmin/user_upload/import/8365_Hidalgo-Carrio_et_al._-_2016_-_EnviRe_-_Environment_Representation_for_Long_Term_Autonomy.pdf)
+
+0. [Official introduction to Envire_Core](https://github.com/envire/envire-envire_core#build-and-test-status)
+
+### MARS 
 
 MARS uses following multiple libraries 
 
@@ -132,7 +140,9 @@ MARS uses following multiple libraries
 2) Open Dynamics Engine (ODE) for the physical simulation
 3) Qt for the GUI
 
-more details (https://github.com/rock-simulation/mars)
+#### More details  
+
+0. [Official introduction to Mars](https://github.com/rock-simulation/mars)
 
 
 
