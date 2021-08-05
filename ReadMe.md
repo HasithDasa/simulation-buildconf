@@ -123,7 +123,7 @@ The reason for having a common datastructure for representing the environment is
 
 2) Operators - carry out operations on maps by considering the maps' frame associations 
 
-more details (http://envire.github.io/docs/intro_about_envire.html),(https://www.dfki.de/fileadmin/user_upload/import/8365_Hidalgo-Carrio_et_al._-_2016_-_EnviRe_-_Environment_Representation_for_Long_Term_Autonomy.pdf), (https://github.com/envire/envire-envire_core#build-and-test-status)
+more details (http://envire.github.io/docs/intro_about_envire.html), (https://www.dfki.de/fileadmin/user_upload/import/8365_Hidalgo-Carrio_et_al._-_2016_-_EnviRe_-_Environment_Representation_for_Long_Term_Autonomy.pdf), (https://github.com/envire/envire-envire_core#build-and-test-status)
 
 
 MARS uses following multiple libraries 
