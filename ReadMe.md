@@ -110,7 +110,8 @@ If you are still having the same error, then you can try by removing ccache. The
 
 ## Introduction to Envire and EnvireMars
 
-# Introduction to Envire
+
+The envire graph is the backbone of the whole library. It stores arbitrary data and time & space transformations between the data. 
 
 Envire is mainly used in navigation as a package for expressing arbitrary information about a robot's environment, but it could be extended to also include robot environment interaction for manipulation.
 
@@ -122,9 +123,8 @@ The reason for having a common datastructure for representing the environment is
 
 2) Operators - carry out operations on maps by considering the maps' frame associations 
 
-more details (http://envire.github.io/docs/intro_about_envire.html)
+more details (http://envire.github.io/docs/intro_about_envire.html),(https://www.dfki.de/fileadmin/user_upload/import/8365_Hidalgo-Carrio_et_al._-_2016_-_EnviRe_-_Environment_Representation_for_Long_Term_Autonomy.pdf), (https://github.com/envire/envire-envire_core#build-and-test-status)
 
-# Introduction to Mars
 
 MARS uses following multiple libraries 
 
