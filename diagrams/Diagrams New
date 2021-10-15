@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI xmi.version="1.2" timestamp="2021-10-15T11:42:25" verified="false" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+<XMI xmi.version="1.2" timestamp="2021-10-15T11:52:35" verified="false" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller 2.32.0 http://umbrello.kde.org</XMI.exporter>
@@ -179,7 +179,7 @@
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams resolution="96">
-       <diagram xmi.id="uFRGnnvNMn71n" name="EnvireMars" type="7" documentation="" backgroundcolor="#ffffff" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#ff0000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="40.4556" canvasheight="2220.45" canvaswidth="2734.48" isopen="1">
+       <diagram xmi.id="uFRGnnvNMn71n" name="EnvireMars" type="7" documentation="" backgroundcolor="#ffffff" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#ff0000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="53.5025" canvasheight="2220.45" canvaswidth="2734.48" isopen="1">
         <widgets>
          <notewidget xmi.id="usSLZhkAPd44d" localid="u8j65SXHDM7DH" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="0" x="-9919.65" y="-8001.66" width="499.784" height="37.3737" isinstance="0" showstereotype="2" text="It loads *.smurf file (Robot Model) into simulator's Enviregraph. " noteType="0"/>
          <notewidget xmi.id="uvh17QmM2z4IO" localid="uJMSQsC6F0tXy" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="0" x="-8016.28" y="-8503.75" width="407.969" height="182.462" isinstance="0" showstereotype="2" text="It performs three types of proximity queries on a pair of geometric models composed of triangles. &#10;&#10; 1) Collision detection: detecting whether the two models overlap, and optionally, all of the triangles that overlap.&#10; 2) Distance computation: computing the minimum distance between a pair of models, i.e., the distance between the closest pair of points.&#10; 3) Tolerance verification: determining whether two models are closer or farther than a tolerance distance.&#10; 4) Continuous collision detection: detecting whether the two moving models overlap during the movement, and optionally, the time of contact.&#10; 5) Contact information: for collision detection and continuous collision detection, the contact information (including contact normals and contact points) can be returned optionally.&#10;" noteType="0"/>
@@ -261,6 +261,7 @@
          <notewidget xmi.id="u9Or2UHoNABds" localid="u4nXp5kjVhGyv" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="0" x="-8015.87" y="-8787.89" width="401.402" height="33.2506" isinstance="0" showstereotype="2" text="Collection of types supported by envire" noteType="0"/>
          <packagewidget xmi.id="urIPdD3Ze9bid" localid="uFQ5zmEX5QyOM" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="0" x="-8387.17" y="-8338.87" width="231.178" height="53.0686" isinstance="0" showstereotype="2"/>
          <notewidget xmi.id="ueRARRJQs5mDN" localid="unaCYrrIt2kDT" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="0" x="-8015.93" y="-8299.12" width="410.106" height="65.2654" isinstance="0" showstereotype="2" text="This is for a collision detection between two convex shapes. (libccd implements variation on Gilbert–Johnson–Keerthi algorithm plus Expand Polytope Algorithm (EPA) and also implements algorithm Minkowski Portal Refinement)" noteType="0"/>
+         <notewidget xmi.id="uzPPHbCwK6ZeH" localid="uJcyS2btuYSxO" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-10317.3" y="-9601.42" width="120" height="30" isinstance="0" showstereotype="2" text="" noteType="0"/>
         </widgets>
         <messages/>
         <associations>
@@ -471,7 +472,7 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="uFRGnnvNMn71n" documentation="" uniqueid="u4q55p8uLc60G"/>
+  <docsettings viewid="uFRGnnvNMn71n" documentation="" uniqueid="uJcyS2btuYSxO"/>
   <listview>
    <listitem id="Views" type="800" open="1">
     <listitem id="Component_View" type="821" open="1">
