@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-wqj0GcXEeyjWNPcOdacQA" name="EnvireMars_Activity_Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_-0HgcGcXEeyjWNPcOdacQA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_-x3dsGcXEeyjWNPcOdacQA" name="Activity1" node="_xIw40GcZEeyjWNPcOdacQA _hVRAUGcYEeyjWNPcOdacQA _JP2_wG7dEeyzj83IfwC89A _y43lEG7bEeyzj83IfwC89A _-a9A0G7eEeyzj83IfwC89A _5olzIG7gEeyzj83IfwC89A _ybmMsG77Eeyzj83IfwC89A _9OZn8G77Eeyzj83IfwC89A _BLcTAG8BEeyzj83IfwC89A _HAxusG8BEeyzj83IfwC89A _qRSKwG8IEeyHfbvqNQlTtA _FYKFEG9DEeyHfbvqNQlTtA _3077MG9DEeyHfbvqNQlTtA _FxLMkG9EEeyHfbvqNQlTtA _QbICQG9OEeyHfbvqNQlTtA _8IngcG9PEeyHfbvqNQlTtA _csRY4G9QEeyHfbvqNQlTtA _jpohsG9SEeyHfbvqNQlTtA _2fMScG9SEeyHfbvqNQlTtA _NFzS8G9TEeyHfbvqNQlTtA _wSwzIG9XEeyHfbvqNQlTtA _mIlMMG9ZEeyHfbvqNQlTtA _YnEj0G-tEeyHfbvqNQlTtA _DWQPIHeQEeyuMofkmDoLAQ _HDeHwHeQEeyuMofkmDoLAQ _WjxSQHejEeyuMofkmDoLAQ _vijuoHfxEeyuMofkmDoLAQ _XP6tUHf1EeyuMofkmDoLAQ _AzxNkHg7EeyuMofkmDoLAQ _IuMGcHg7EeyuMofkmDoLAQ _QYGMMHg9EeyuMofkmDoLAQ _RvmKoHg9EeyuMofkmDoLAQ _wbhLwHhFEeyuMofkmDoLAQ _5cCxEHhFEeyuMofkmDoLAQ _-YXOYHh3EeyuMofkmDoLAQ _7WSRIHj-EeykOamNziLqcg _JbqvEHkNEeykOamNziLqcg _f-rB8HkNEeykOamNziLqcg _GhGl8HkOEeykOamNziLqcg _1fxZoHkSEeykOamNziLqcg __CS4wHkSEeykOamNziLqcg _HeBu8HkTEeykOamNziLqcg _sZhxYHkTEeykOamNziLqcg _UBx8QG1TEeyzj83IfwC89A _HgH3QHnwEeyUqPRmFePbaQ _NU1LYHnxEeyUqPRmFePbaQ _7uiekHn6EeyUqPRmFePbaQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LapScG3DEeyzj83IfwC89A" name="[Initialization is not done]" target="_UBx8QG1TEeyzj83IfwC89A" source="_hVRAUGcYEeyjWNPcOdacQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JQn0wG7dEeyzj83IfwC89A" name="[File is not Available]" target="_JP2_wG7dEeyzj83IfwC89A" source="_y43lEG7bEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-bnIIG7eEeyzj83IfwC89A" name="[File is Available]" target="_-a9A0G7eEeyzj83IfwC89A" source="_y43lEG7bEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9AdG0G7gEeyzj83IfwC89A" target="_5olzIG7gEeyzj83IfwC89A" source="_-a9A0G7eEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__mWyEG7gEeyzj83IfwC89A" target="_5olzIG7gEeyzj83IfwC89A" source="_JP2_wG7dEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6hIwcG77Eeyzj83IfwC89A" target="_ybmMsG77Eeyzj83IfwC89A" source="_5olzIG7gEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9PKc8G77Eeyzj83IfwC89A" name="[need to load with GUI]" target="_9OZn8G77Eeyzj83IfwC89A" source="_ybmMsG77Eeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PWzlgG8BEeyzj83IfwC89A" target="_HAxusG8BEeyzj83IfwC89A" source="_BLcTAG8BEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qSNX0G8IEeyHfbvqNQlTtA" target="_qRSKwG8IEeyHfbvqNQlTtA" source="_HAxusG8BEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Z90FAG9EEeyHfbvqNQlTtA" name="[File is Available]" target="_FxLMkG9EEeyHfbvqNQlTtA" source="_3077MG9DEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8JpbMG9PEeyHfbvqNQlTtA" name="[File is not Available]" target="_8IngcG9PEeyHfbvqNQlTtA" source="_3077MG9DEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hqQV0G9QEeyHfbvqNQlTtA" target="_csRY4G9QEeyHfbvqNQlTtA" source="_FxLMkG9EEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_l632cG9QEeyHfbvqNQlTtA" target="_csRY4G9QEeyHfbvqNQlTtA" source="_8IngcG9PEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BBnIUG9TEeyHfbvqNQlTtA" name="[Main GUI is Available]" target="_2fMScG9SEeyHfbvqNQlTtA" source="_jpohsG9SEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RR6HAG9TEeyHfbvqNQlTtA" target="_NFzS8G9TEeyHfbvqNQlTtA" source="_jpohsG9SEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XXBrIG9TEeyHfbvqNQlTtA" target="_NFzS8G9TEeyHfbvqNQlTtA" source="_2fMScG9SEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wP1JAG9ZEeyHfbvqNQlTtA" target="_mIlMMG9ZEeyHfbvqNQlTtA" source="_ybmMsG77Eeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0_gkMG9ZEeyHfbvqNQlTtA" target="_BLcTAG8BEeyzj83IfwC89A" source="_mIlMMG9ZEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_e89KwHejEeyuMofkmDoLAQ" name="[QApp is needed]" target="_WjxSQHejEeyuMofkmDoLAQ" source="_DWQPIHeQEeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GlO8gHekEeyuMofkmDoLAQ" target="_DWQPIHeQEeyuMofkmDoLAQ" source="_xIw40GcZEeyjWNPcOdacQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rtQYAHekEeyuMofkmDoLAQ" target="_HDeHwHeQEeyuMofkmDoLAQ" source="_WjxSQHejEeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BfR54HelEeyuMofkmDoLAQ" target="_hVRAUGcYEeyjWNPcOdacQA" source="_HDeHwHeQEeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Ma22oHelEeyuMofkmDoLAQ" target="_HDeHwHeQEeyuMofkmDoLAQ" source="_DWQPIHeQEeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_vjhX8HfxEeyuMofkmDoLAQ" target="_vijuoHfxEeyuMofkmDoLAQ" source="_qRSKwG8IEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HXomAHf1EeyuMofkmDoLAQ" target="_mIlMMG9ZEeyHfbvqNQlTtA" source="_9OZn8G77Eeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_A07EIHg7EeyuMofkmDoLAQ" target="_AzxNkHg7EeyuMofkmDoLAQ" source="_vijuoHfxEeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QZLKQHg9EeyuMofkmDoLAQ" name="[GUI is loaded]" target="_QYGMMHg9EeyuMofkmDoLAQ" source="_AzxNkHg7EeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Rws94Hg9EeyuMofkmDoLAQ" name="[GUI is not loaded]" target="_RvmKoHg9EeyuMofkmDoLAQ" source="_AzxNkHg7EeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d2vtMHg-EeyuMofkmDoLAQ" target="_xIw40GcZEeyjWNPcOdacQA" source="_IuMGcHg7EeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5dMnoHhFEeyuMofkmDoLAQ" name="[&quot;mars_graphics&quot; library is loaded]" target="_5cCxEHhFEeyuMofkmDoLAQ" source="_wbhLwHhFEeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gTGDwHhSEeyuMofkmDoLAQ" target="_QbICQG9OEeyHfbvqNQlTtA" source="_RvmKoHg9EeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kapvAHhSEeyuMofkmDoLAQ" target="_wbhLwHhFEeyuMofkmDoLAQ" source="_QbICQG9OEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VB__oHh2EeyuMofkmDoLAQ" target="_XP6tUHf1EeyuMofkmDoLAQ" source="_wbhLwHhFEeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YIjg4Hh2EeyuMofkmDoLAQ" target="_XP6tUHf1EeyuMofkmDoLAQ" source="_5cCxEHhFEeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-ZjhMHh3EeyuMofkmDoLAQ" target="_-YXOYHh3EeyuMofkmDoLAQ" source="_XP6tUHf1EeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_IqC5kHh4EeyuMofkmDoLAQ" target="_-YXOYHh3EeyuMofkmDoLAQ" source="_QYGMMHg9EeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CxpW0Hj8EeykOamNziLqcg" target="_FYKFEG9DEeyHfbvqNQlTtA" source="_-YXOYHh3EeyuMofkmDoLAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FF4qUHj8EeykOamNziLqcg" target="_3077MG9DEeyHfbvqNQlTtA" source="_FYKFEG9DEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rRCr4Hj-EeykOamNziLqcg" target="_jpohsG9SEeyHfbvqNQlTtA" source="_csRY4G9QEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7X1wUHj-EeykOamNziLqcg" target="_7WSRIHj-EeykOamNziLqcg" source="_NFzS8G9TEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JdBZ8HkNEeykOamNziLqcg" target="_JbqvEHkNEeykOamNziLqcg" source="_7WSRIHj-EeykOamNziLqcg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gACT4HkNEeykOamNziLqcg" name="[QApp is needed]" target="_f-rB8HkNEeykOamNziLqcg" source="_JbqvEHkNEeykOamNziLqcg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GiftEHkOEeykOamNziLqcg" target="_GhGl8HkOEeykOamNziLqcg" source="_JbqvEHkNEeykOamNziLqcg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Qoj-IHkOEeykOamNziLqcg" target="_GhGl8HkOEeykOamNziLqcg" source="_f-rB8HkNEeykOamNziLqcg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1hOyMHkSEeykOamNziLqcg" target="_1fxZoHkSEeykOamNziLqcg" source="_GhGl8HkOEeykOamNziLqcg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__DrY0HkSEeykOamNziLqcg" name="[QApp is needed]" target="__CS4wHkSEeykOamNziLqcg" source="_1fxZoHkSEeykOamNziLqcg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HfYZ0HkTEeykOamNziLqcg" name="[QApp is not needed]" target="_HeBu8HkTEeykOamNziLqcg" source="_1fxZoHkSEeykOamNziLqcg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__XpBMHkTEeykOamNziLqcg" target="_sZhxYHkTEeykOamNziLqcg" source="_HeBu8HkTEeykOamNziLqcg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oQFaUHkUEeykOamNziLqcg" target="_sZhxYHkTEeykOamNziLqcg" source="__CS4wHkSEeykOamNziLqcg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xEDqAHkXEeykOamNziLqcg" target="_YnEj0G-tEeyHfbvqNQlTtA" source="_sZhxYHkTEeykOamNziLqcg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HhyrMHnwEeyUqPRmFePbaQ" target="_HgH3QHnwEeyUqPRmFePbaQ" source="_UBx8QG1TEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NWbG0HnxEeyUqPRmFePbaQ" target="_NU1LYHnxEeyUqPRmFePbaQ" source="_HgH3QHnwEeyUqPRmFePbaQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ijr1IHn5EeyUqPRmFePbaQ" target="_wSwzIG9XEeyHfbvqNQlTtA" source="_hVRAUGcYEeyjWNPcOdacQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fqPGUHn6EeyUqPRmFePbaQ" target="_wSwzIG9XEeyHfbvqNQlTtA" source="_NU1LYHnxEeyUqPRmFePbaQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7wF9wHn6EeyUqPRmFePbaQ" target="_7uiekHn6EeyUqPRmFePbaQ" source="_wSwzIG9XEeyHfbvqNQlTtA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eSIOcHn7EeyUqPRmFePbaQ" target="_y43lEG7bEeyzj83IfwC89A" source="_7uiekHn6EeyUqPRmFePbaQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_hVRAUGcYEeyjWNPcOdacQA" incoming="_BfR54HelEeyuMofkmDoLAQ" outgoing="_LapScG3DEeyzj83IfwC89A _ijr1IHn5EeyUqPRmFePbaQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xIw40GcZEeyjWNPcOdacQA" name="Parse Command Extra Parameters" incoming="_d2vtMHg-EeyuMofkmDoLAQ" outgoing="_GlO8gHekEeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_UBx8QG1TEeyzj83IfwC89A" name="Check if current locale supports English Number interpretation" incoming="_LapScG3DEeyzj83IfwC89A" outgoing="_HhyrMHnwEeyUqPRmFePbaQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_y43lEG7bEeyzj83IfwC89A" incoming="_eSIOcHn7EeyUqPRmFePbaQ" outgoing="_JQn0wG7dEeyzj83IfwC89A _-bnIIG7eEeyzj83IfwC89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_JP2_wG7dEeyzj83IfwC89A" name="Load Default Core Libraries" incoming="_JQn0wG7dEeyzj83IfwC89A" outgoing="__mWyEG7gEeyzj83IfwC89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-a9A0G7eEeyzj83IfwC89A" name="Load Core Libraries from &quot;coreConfigFile&quot;" incoming="_-bnIIG7eEeyzj83IfwC89A" outgoing="_9AdG0G7gEeyzj83IfwC89A"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_5olzIG7gEeyzj83IfwC89A" incoming="_9AdG0G7gEeyzj83IfwC89A __mWyEG7gEeyzj83IfwC89A" outgoing="_6hIwcG77Eeyzj83IfwC89A"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_ybmMsG77Eeyzj83IfwC89A" incoming="_6hIwcG77Eeyzj83IfwC89A" outgoing="_9PKc8G77Eeyzj83IfwC89A _wP1JAG9ZEeyHfbvqNQlTtA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_9OZn8G77Eeyzj83IfwC89A" name="Load GUI Related Libraries" incoming="_9PKc8G77Eeyzj83IfwC89A" outgoing="_HXomAHf1EeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_BLcTAG8BEeyzj83IfwC89A" name="Load &quot;mars_sim&quot; library which handles physical interactions of simulations" incoming="_0_gkMG9ZEeyHfbvqNQlTtA" outgoing="_PWzlgG8BEeyzj83IfwC89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HAxusG8BEeyzj83IfwC89A" name="Load Control Center" incoming="_PWzlgG8BEeyzj83IfwC89A" outgoing="_qSNX0G8IEeyHfbvqNQlTtA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_qRSKwG8IEeyHfbvqNQlTtA" name="Look Input Parameters to Open simulator with GUI and without GUI " incoming="_qSNX0G8IEeyHfbvqNQlTtA" outgoing="_vjhX8HfxEeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FYKFEG9DEeyHfbvqNQlTtA" name="Open file which includes list of other libraries" incoming="_CxpW0Hj8EeykOamNziLqcg" outgoing="_FF4qUHj8EeykOamNziLqcg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_3077MG9DEeyHfbvqNQlTtA" incoming="_FF4qUHj8EeykOamNziLqcg" outgoing="_Z90FAG9EEeyHfbvqNQlTtA _8JpbMG9PEeyHfbvqNQlTtA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FxLMkG9EEeyHfbvqNQlTtA" name="Load Other Libraries from the file" incoming="_Z90FAG9EEeyHfbvqNQlTtA" outgoing="_hqQV0G9QEeyHfbvqNQlTtA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QbICQG9OEeyHfbvqNQlTtA" name="Load &quot;mars_graphics&quot; Library which provides a 3d visualization " incoming="_gTGDwHhSEeyuMofkmDoLAQ" outgoing="_kapvAHhSEeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_8IngcG9PEeyHfbvqNQlTtA" name="Load Default Other Libraries" incoming="_8JpbMG9PEeyHfbvqNQlTtA" outgoing="_l632cG9QEeyHfbvqNQlTtA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_csRY4G9QEeyHfbvqNQlTtA" incoming="_hqQV0G9QEeyHfbvqNQlTtA _l632cG9QEeyHfbvqNQlTtA" outgoing="_rRCr4Hj-EeykOamNziLqcg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_jpohsG9SEeyHfbvqNQlTtA" incoming="_rRCr4Hj-EeykOamNziLqcg" outgoing="_BBnIUG9TEeyHfbvqNQlTtA _RR6HAG9TEeyHfbvqNQlTtA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2fMScG9SEeyHfbvqNQlTtA" name="Show Main GUI" incoming="_BBnIUG9TEeyHfbvqNQlTtA" outgoing="_XXBrIG9TEeyHfbvqNQlTtA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_NFzS8G9TEeyHfbvqNQlTtA" incoming="_RR6HAG9TEeyHfbvqNQlTtA _XXBrIG9TEeyHfbvqNQlTtA" outgoing="_7X1wUHj-EeykOamNziLqcg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_wSwzIG9XEeyHfbvqNQlTtA" incoming="_ijr1IHn5EeyUqPRmFePbaQ _fqPGUHn6EeyUqPRmFePbaQ" outgoing="_7wF9wHn6EeyUqPRmFePbaQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_mIlMMG9ZEeyHfbvqNQlTtA" incoming="_wP1JAG9ZEeyHfbvqNQlTtA _HXomAHf1EeyuMofkmDoLAQ" outgoing="_0_gkMG9ZEeyHfbvqNQlTtA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_YnEj0G-tEeyHfbvqNQlTtA" name="Stop" incoming="_xEDqAHkXEeykOamNziLqcg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_DWQPIHeQEeyuMofkmDoLAQ" incoming="_GlO8gHekEeyuMofkmDoLAQ" outgoing="_e89KwHejEeyuMofkmDoLAQ _Ma22oHelEeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_HDeHwHeQEeyuMofkmDoLAQ" incoming="_rtQYAHekEeyuMofkmDoLAQ _Ma22oHelEeyuMofkmDoLAQ" outgoing="_BfR54HelEeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WjxSQHejEeyuMofkmDoLAQ" name="Start QT-Based Application" incoming="_e89KwHejEeyuMofkmDoLAQ" outgoing="_rtQYAHekEeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_vijuoHfxEeyuMofkmDoLAQ" name="Load &quot;mars_gui&quot; Library which is responsible for the GUI of the Simulator" incoming="_vjhX8HfxEeyuMofkmDoLAQ" outgoing="_A07EIHg7EeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_XP6tUHf1EeyuMofkmDoLAQ" incoming="_VB__oHh2EeyuMofkmDoLAQ _YIjg4Hh2EeyuMofkmDoLAQ" outgoing="_-ZjhMHh3EeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_AzxNkHg7EeyuMofkmDoLAQ" incoming="_A07EIHg7EeyuMofkmDoLAQ" outgoing="_QZLKQHg9EeyuMofkmDoLAQ _Rws94Hg9EeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_IuMGcHg7EeyuMofkmDoLAQ" name="Start" outgoing="_d2vtMHg-EeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QYGMMHg9EeyuMofkmDoLAQ" name="Set up the &quot;main_gui&quot;" incoming="_QZLKQHg9EeyuMofkmDoLAQ" outgoing="_IqC5kHh4EeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_RvmKoHg9EeyuMofkmDoLAQ" name="Load &quot;main_gui&quot; Library which manages all dialogs and menus " incoming="_Rws94Hg9EeyuMofkmDoLAQ" outgoing="_gTGDwHhSEeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_wbhLwHhFEeyuMofkmDoLAQ" incoming="_kapvAHhSEeyuMofkmDoLAQ" outgoing="_5dMnoHhFEeyuMofkmDoLAQ _VB__oHh2EeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5cCxEHhFEeyuMofkmDoLAQ" name="Initialize Open Scene Graph(OSG)" incoming="_5dMnoHhFEeyuMofkmDoLAQ" outgoing="_YIjg4Hh2EeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_-YXOYHh3EeyuMofkmDoLAQ" incoming="_-ZjhMHh3EeyuMofkmDoLAQ _IqC5kHh4EeyuMofkmDoLAQ" outgoing="_CxpW0Hj8EeykOamNziLqcg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7WSRIHj-EeykOamNziLqcg" name="Start Simulation" incoming="_7X1wUHj-EeykOamNziLqcg" outgoing="_JdBZ8HkNEeykOamNziLqcg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_JbqvEHkNEeykOamNziLqcg" incoming="_JdBZ8HkNEeykOamNziLqcg" outgoing="_gACT4HkNEeykOamNziLqcg _GiftEHkOEeykOamNziLqcg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_f-rB8HkNEeykOamNziLqcg" name="Run Graphics Timer" incoming="_gACT4HkNEeykOamNziLqcg" outgoing="_Qoj-IHkOEeykOamNziLqcg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_GhGl8HkOEeykOamNziLqcg" incoming="_GiftEHkOEeykOamNziLqcg _Qoj-IHkOEeykOamNziLqcg" outgoing="_1hOyMHkSEeykOamNziLqcg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_1fxZoHkSEeykOamNziLqcg" incoming="_1hOyMHkSEeykOamNziLqcg" outgoing="__DrY0HkSEeykOamNziLqcg _HfYZ0HkTEeykOamNziLqcg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="__CS4wHkSEeykOamNziLqcg" name="Abort" incoming="__DrY0HkSEeykOamNziLqcg" outgoing="_oQFaUHkUEeykOamNziLqcg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HeBu8HkTEeykOamNziLqcg" name="Run Simulation without QApp" incoming="_HfYZ0HkTEeykOamNziLqcg" outgoing="__XpBMHkTEeykOamNziLqcg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_sZhxYHkTEeykOamNziLqcg" incoming="__XpBMHkTEeykOamNziLqcg _oQFaUHkUEeykOamNziLqcg" outgoing="_xEDqAHkXEeykOamNziLqcg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HgH3QHnwEeyUqPRmFePbaQ" name="Allows to start &quot;mars_app&quot; from everywhere without writing files to &quot;.&quot;" incoming="_HhyrMHnwEeyUqPRmFePbaQ" outgoing="_NWbG0HnxEeyUqPRmFePbaQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NU1LYHnxEeyUqPRmFePbaQ" name="Load configuration manager to setup configurations correctly" incoming="_NWbG0HnxEeyUqPRmFePbaQ" outgoing="_fqPGUHn6EeyUqPRmFePbaQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7uiekHn6EeyUqPRmFePbaQ" name="Open file which includes list of Core Libraries" incoming="_7wF9wHn6EeyUqPRmFePbaQ" outgoing="_eSIOcHn7EeyUqPRmFePbaQ"/>
+  </packagedElement>
+</uml:Model>

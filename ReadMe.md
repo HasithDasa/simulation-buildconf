@@ -1,8 +1,8 @@
 ## Contents
 
-0. [Quick Instructions](https://github.com/envire4mars/simulation-buildconf/blob/envireMars/ReadMe.md#quick-instructions)
-0. [TroubleShooting](https://github.com/envire4mars/simulation-buildconf/blob/envireMars/ReadMe.md#TroubleShooting)
-0. [Introduction to Envire and EnvireMars]
+0. [Quick Instructions](ReadMe.md#quick-instructions)
+0. [TroubleShooting](ReadMe.md#troubleshooting)
+0. [Introduction to Envire and EnvireMars](ReadMe.md#introduction-to-envire-and-enviremars)
 
 ## Quick Instructions
 
@@ -116,13 +116,13 @@ The envire graph is the backbone of the whole library. It stores arbitrary data 
 
 Envire is mainly used in navigation as a package for expressing arbitrary information about a robot's environment, but it could be extended to also include robot environment interaction for manipulation.
 
-The reason for having a common datastructure for representing the environment is to simplify the interchange of algorithms between applications. Envire package is mainly made up of three types of objects. 
+The reason for having a common datastructure for representing the environment is, among others, to simplify the interchange of environment representation information between applications/algorithms. Envire package is mainly made up of three types of objects. 
 
 1) Maps - give information in a given reference frame.
 
 2) Frames - provide the spatial context for the maps
 
-2) Operators - carry out operations on maps by considering the maps' frame associations 
+3) Operators - carry out operations on maps by considering the maps' frame associations 
 
 #### More details 
 
@@ -136,7 +136,7 @@ The reason for having a common datastructure for representing the environment is
 
 MARS (Machina Arte Robotum Simulans) is a cross-platform simulation and visualisation tool created for robotics research developed at the DFKI-RIC and the University of Bremen. It runs on (Ubuntu) Linux, Mac and Windows and consists of a core framework containing all main simulation components.
 
-Those Components are: 
+Those components are: 
 
 1) Open Scene Graph (OSG) for its visualisation
 2) Open Dynamics Engine (ODE) for the physical simulation
@@ -145,6 +145,14 @@ Those Components are:
 #### More details  
 
 0. [Official introduction to Mars](https://github.com/rock-simulation/mars)
+
+### UML Diagrams of EnvireMars
+
+1) [Package Diagram of EnvireMars](diagrams/Package_Diagram.svg)
+2) [Activity Diagram of EnvireMars](diagrams/EnvireMars_Activity_Diagram.svg)
+
+
+
 
 
 
