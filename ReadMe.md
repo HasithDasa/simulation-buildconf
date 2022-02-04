@@ -148,8 +148,15 @@ Those components are:
 
 ### UML Diagrams of EnvireMars
 
-1) [Package Diagram of EnvireMars](diagrams/Umbrello/Envire_MARS_Package_Diagrams/Package_Diagram.svg)
-2) [Activity Diagram of EnvireMars](diagrams/Papyrus/EnvireMars_Activity_Diagram/EnvireMars_Activity_Diagram.svg)
+### 1) Package Diagram of EnvireMars
+
+![Package Diagram of EnvireMars](diagrams/Umbrello/Envire_MARS_Package_Diagrams/Package_Diagram.svg)
+
+### 2) Activity Diagram of EnvireMars
+
+![Activity Diagram of EnvireMars](diagrams/Papyrus/EnvireMars_Activity_Diagram/EnvireMars_Activity_Diagram.svg)
+
+
 
 
 
