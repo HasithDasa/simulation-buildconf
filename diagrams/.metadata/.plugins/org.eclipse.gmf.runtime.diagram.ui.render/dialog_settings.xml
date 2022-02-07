@@ -4,5 +4,6 @@
 		<item key="CopyToImageDialog.imageFormat" value="svg"/>
 		<item key="CopyToImageDialog.overwriteExisting" value="false"/>
 		<item key="CopyToImageDialog.exportToHTML" value="false"/>
+		<item key="CopyToImageDialog.folder" value="/home/hasith/Desktop"/>
 	</section>
 </section>

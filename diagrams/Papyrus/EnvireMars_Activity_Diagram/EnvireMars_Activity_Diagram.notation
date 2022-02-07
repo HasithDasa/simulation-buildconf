@@ -46,7 +46,7 @@
           <layoutConstraint xmi:type="notation:Location" xmi:id="_UCFeQm1TEeyzj83IfwC89A" y="15"/>
         </children>
         <element xmi:type="uml:OpaqueAction" href="EnvireMars_Activity_Diagram.uml#_UBx8QG1TEeyzj83IfwC89A"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UCGFUG1TEeyzj83IfwC89A" x="884" y="312" width="438"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UCGFUG1TEeyzj83IfwC89A" x="884" y="312" width="476"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_y5VfIG7bEeyzj83IfwC89A" type="DecisionNode_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_y5VfIm7bEeyzj83IfwC89A" type="DecisionNode_FloatingNameLabel">
@@ -658,7 +658,7 @@
           <layoutConstraint xmi:type="notation:Location" xmi:id="_Hgu7QnnwEeyUqPRmFePbaQ" y="15"/>
         </children>
         <element xmi:type="uml:OpaqueAction" href="EnvireMars_Activity_Diagram.uml#_HgH3QHnwEeyUqPRmFePbaQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HgviUHnwEeyUqPRmFePbaQ" x="884" y="367"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HgviUHnwEeyUqPRmFePbaQ" x="884" y="367" width="476"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_NVZzIHnxEeyUqPRmFePbaQ" type="OpaqueAction_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_NVZzInnxEeyUqPRmFePbaQ" type="OpaqueAction_NameLabel"/>
@@ -666,7 +666,7 @@
           <layoutConstraint xmi:type="notation:Location" xmi:id="_NVZzJHnxEeyUqPRmFePbaQ" y="15"/>
         </children>
         <element xmi:type="uml:OpaqueAction" href="EnvireMars_Activity_Diagram.uml#_NU1LYHnxEeyUqPRmFePbaQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NVZzJXnxEeyUqPRmFePbaQ" x="884" y="425" width="438"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NVZzJXnxEeyUqPRmFePbaQ" x="884" y="425" width="476"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_xq8MUHnyEeyUqPRmFePbaQ" type="Note" fontName="Ubuntu" description="data_broker,main_gui ,mars_graphics, mars_sim, mars_scene_loader, mars_gui, mars_entity_factory, mars_smurf, mars_smurf_loader, and entity_view are the libraries loaded from &quot;core_libs.txt&quot; file." fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xq8MVHnyEeyUqPRmFePbaQ" source="PapyrusCSSForceValue">

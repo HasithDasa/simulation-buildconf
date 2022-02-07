@@ -62,7 +62,7 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_eSIOcHn7EeyUqPRmFePbaQ" target="_y43lEG7bEeyzj83IfwC89A" source="_7uiekHn6EeyUqPRmFePbaQ"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_hVRAUGcYEeyjWNPcOdacQA" incoming="_BfR54HelEeyuMofkmDoLAQ" outgoing="_LapScG3DEeyzj83IfwC89A _ijr1IHn5EeyUqPRmFePbaQ"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_xIw40GcZEeyjWNPcOdacQA" name="Parse Command Extra Parameters" incoming="_d2vtMHg-EeyuMofkmDoLAQ" outgoing="_GlO8gHekEeyuMofkmDoLAQ"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_UBx8QG1TEeyzj83IfwC89A" name="Check if current locale supports English Number interpretation" incoming="_LapScG3DEeyzj83IfwC89A" outgoing="_HhyrMHnwEeyUqPRmFePbaQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_UBx8QG1TEeyzj83IfwC89A" name="Check if English number format supports in the OS" incoming="_LapScG3DEeyzj83IfwC89A" outgoing="_HhyrMHnwEeyUqPRmFePbaQ"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_y43lEG7bEeyzj83IfwC89A" incoming="_eSIOcHn7EeyUqPRmFePbaQ" outgoing="_JQn0wG7dEeyzj83IfwC89A _-bnIIG7eEeyzj83IfwC89A"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_JP2_wG7dEeyzj83IfwC89A" name="Load Default Core Libraries" incoming="_JQn0wG7dEeyzj83IfwC89A" outgoing="__mWyEG7gEeyzj83IfwC89A"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_-a9A0G7eEeyzj83IfwC89A" name="Load Core Libraries from &quot;coreConfigFile&quot;" incoming="_-bnIIG7eEeyzj83IfwC89A" outgoing="_9AdG0G7gEeyzj83IfwC89A"/>
@@ -104,7 +104,7 @@
     <node xmi:type="uml:OpaqueAction" xmi:id="__CS4wHkSEeykOamNziLqcg" name="Abort" incoming="__DrY0HkSEeykOamNziLqcg" outgoing="_oQFaUHkUEeykOamNziLqcg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_HeBu8HkTEeykOamNziLqcg" name="Run Simulation without QApp" incoming="_HfYZ0HkTEeykOamNziLqcg" outgoing="__XpBMHkTEeykOamNziLqcg"/>
     <node xmi:type="uml:MergeNode" xmi:id="_sZhxYHkTEeykOamNziLqcg" incoming="__XpBMHkTEeykOamNziLqcg _oQFaUHkUEeykOamNziLqcg" outgoing="_xEDqAHkXEeykOamNziLqcg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_HgH3QHnwEeyUqPRmFePbaQ" name="Allows to start &quot;mars_app&quot; from everywhere without writing files to &quot;.&quot;" incoming="_HhyrMHnwEeyUqPRmFePbaQ" outgoing="_NWbG0HnxEeyUqPRmFePbaQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HgH3QHnwEeyUqPRmFePbaQ" name="Allows to start &quot;mars_app&quot; from anywhere it loads" incoming="_HhyrMHnwEeyUqPRmFePbaQ" outgoing="_NWbG0HnxEeyUqPRmFePbaQ"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_NU1LYHnxEeyUqPRmFePbaQ" name="Load configuration manager to setup configurations correctly" incoming="_NWbG0HnxEeyUqPRmFePbaQ" outgoing="_fqPGUHn6EeyUqPRmFePbaQ"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_7uiekHn6EeyUqPRmFePbaQ" name="Open file which includes list of Core Libraries" incoming="_7wF9wHn6EeyUqPRmFePbaQ" outgoing="_eSIOcHn7EeyUqPRmFePbaQ"/>
   </packagedElement>
