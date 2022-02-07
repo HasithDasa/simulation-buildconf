@@ -157,7 +157,7 @@ This Package Diagram can be edited by using UML designing tool called ["Umbrello
 
 ##### Note
 
-Umbrello is used only for this diagram and it's not used anymore.
+"Umbrello" is used only for this diagram and it's not used anymore.
 
 #### 2) Activity Diagram of EnvireMars
 
