@@ -421,7 +421,7 @@
         <element xmi:type="uml:DecisionNode" href="EnvireMars_Activity_Diagram.uml#_XP6tUHf1EeyuMofkmDoLAQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XQbqsXf1EeyuMofkmDoLAQ" x="977" y="1513" width="94" height="55"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_23VnAHf1EeyuMofkmDoLAQ" type="Note" fontName="Ubuntu" description="These parameters are loaded inorder to check MARS Simulator required GUI or not" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+      <children xmi:type="notation:Shape" xmi:id="_23VnAHf1EeyuMofkmDoLAQ" type="Note" fontName="Ubuntu" description="These extra parameters are loaded inorder to check MARS Simulator required GUI or not" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_23WOEHf1EeyuMofkmDoLAQ" source="PapyrusCSSForceValue">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_23WOEXf1EeyuMofkmDoLAQ" key="lineColor" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_23WOEnf1EeyuMofkmDoLAQ" key="fontHeight" value="true"/>

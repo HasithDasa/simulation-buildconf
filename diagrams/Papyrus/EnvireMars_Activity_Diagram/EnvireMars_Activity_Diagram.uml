@@ -71,7 +71,7 @@
     <node xmi:type="uml:OpaqueAction" xmi:id="_9OZn8G77Eeyzj83IfwC89A" name="Load GUI Related Libraries" incoming="_9PKc8G77Eeyzj83IfwC89A" outgoing="_HXomAHf1EeyuMofkmDoLAQ"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_BLcTAG8BEeyzj83IfwC89A" name="Load &quot;mars_sim&quot; library which handles physical interactions of simulations" incoming="_0_gkMG9ZEeyHfbvqNQlTtA" outgoing="_PWzlgG8BEeyzj83IfwC89A"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_HAxusG8BEeyzj83IfwC89A" name="Load Control Center" incoming="_PWzlgG8BEeyzj83IfwC89A" outgoing="_qSNX0G8IEeyHfbvqNQlTtA"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_qRSKwG8IEeyHfbvqNQlTtA" name="Look Input Parameters to Open simulator with GUI and without GUI " incoming="_qSNX0G8IEeyHfbvqNQlTtA" outgoing="_vjhX8HfxEeyuMofkmDoLAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_qRSKwG8IEeyHfbvqNQlTtA" name="Parse Command Extra Parameters" incoming="_qSNX0G8IEeyHfbvqNQlTtA" outgoing="_vjhX8HfxEeyuMofkmDoLAQ"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_FYKFEG9DEeyHfbvqNQlTtA" name="Open file which includes list of other libraries" incoming="_CxpW0Hj8EeykOamNziLqcg" outgoing="_FF4qUHj8EeykOamNziLqcg"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_3077MG9DEeyHfbvqNQlTtA" incoming="_FF4qUHj8EeykOamNziLqcg" outgoing="_Z90FAG9EEeyHfbvqNQlTtA _8JpbMG9PEeyHfbvqNQlTtA"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_FxLMkG9EEeyHfbvqNQlTtA" name="Load Other Libraries from the file" incoming="_Z90FAG9EEeyHfbvqNQlTtA" outgoing="_hqQV0G9QEeyHfbvqNQlTtA"/>
