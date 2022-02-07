@@ -4,6 +4,6 @@
 		<item key="CopyToImageDialog.imageFormat" value="svg"/>
 		<item key="CopyToImageDialog.overwriteExisting" value="false"/>
 		<item key="CopyToImageDialog.exportToHTML" value="false"/>
-		<item key="CopyToImageDialog.folder" value="/home/hasith/Desktop"/>
+		<item key="CopyToImageDialog.folder" value="/home/hasith/documentation/simulation-buildconf/diagrams/Papyrus"/>
 	</section>
 </section>

@@ -62,7 +62,7 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_eSIOcHn7EeyUqPRmFePbaQ" target="_y43lEG7bEeyzj83IfwC89A" source="_7uiekHn6EeyUqPRmFePbaQ"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_hVRAUGcYEeyjWNPcOdacQA" incoming="_BfR54HelEeyuMofkmDoLAQ" outgoing="_LapScG3DEeyzj83IfwC89A _ijr1IHn5EeyUqPRmFePbaQ"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_xIw40GcZEeyjWNPcOdacQA" name="Parse Command Extra Parameters" incoming="_d2vtMHg-EeyuMofkmDoLAQ" outgoing="_GlO8gHekEeyuMofkmDoLAQ"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_UBx8QG1TEeyzj83IfwC89A" name="Check if English number format supports in the OS" incoming="_LapScG3DEeyzj83IfwC89A" outgoing="_HhyrMHnwEeyUqPRmFePbaQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_UBx8QG1TEeyzj83IfwC89A" name="Check if English number format of simulator supports with the OS" incoming="_LapScG3DEeyzj83IfwC89A" outgoing="_HhyrMHnwEeyUqPRmFePbaQ"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_y43lEG7bEeyzj83IfwC89A" incoming="_eSIOcHn7EeyUqPRmFePbaQ" outgoing="_JQn0wG7dEeyzj83IfwC89A _-bnIIG7eEeyzj83IfwC89A"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_JP2_wG7dEeyzj83IfwC89A" name="Load Default Core Libraries" incoming="_JQn0wG7dEeyzj83IfwC89A" outgoing="__mWyEG7gEeyzj83IfwC89A"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_-a9A0G7eEeyzj83IfwC89A" name="Load Core Libraries from &quot;coreConfigFile&quot;" incoming="_-bnIIG7eEeyzj83IfwC89A" outgoing="_9AdG0G7gEeyzj83IfwC89A"/>

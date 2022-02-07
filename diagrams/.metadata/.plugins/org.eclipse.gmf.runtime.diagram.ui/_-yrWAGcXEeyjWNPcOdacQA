@@ -1,10 +1,10 @@
-#Mon Feb 07 16:28:28 CET 2022
+#Mon Feb 07 16:36:38 CET 2022
 print.useInches=true
 rulergrid.rulerunit=2
 print.margin.left=0.5
 viewport.x=0
 rulergrid.gridlinestyle=6
-viewport.y=0
+viewport.y=1
 zoom=0.75
 print.usePortrait=true
 print.page.height=11.0
