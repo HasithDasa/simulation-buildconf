@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-wqj0GcXEeyjWNPcOdacQA" name="EnvireMars_Activity_Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_-0HgcGcXEeyjWNPcOdacQA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_-x3dsGcXEeyjWNPcOdacQA" name="Activity1" node="_De2xQGcYEeyjWNPcOdacQA _xIw40GcZEeyjWNPcOdacQA _hVRAUGcYEeyjWNPcOdacQA _4LaNcGcfEeyjWNPcOdacQA _EwCLoGcgEeyjWNPcOdacQA _ge2moGchEeyjWNPcOdacQA _UBx8QG1TEeyzj83IfwC89A _wGYwEG4PEeyzj83IfwC89A _Oo1d8G6NEeyzj83IfwC89A _JP2_wG7dEeyzj83IfwC89A _y43lEG7bEeyzj83IfwC89A _-a9A0G7eEeyzj83IfwC89A _5olzIG7gEeyzj83IfwC89A _ybmMsG77Eeyzj83IfwC89A _9OZn8G77Eeyzj83IfwC89A">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_OXXx8GcjEeyjWNPcOdacQA" annotatedElement="_xIw40GcZEeyjWNPcOdacQA">
+      <body>readArguments(argc, argv)</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_seTT0GckEeyjWNPcOdacQA">
+      <body>explain where is the simulator started.... libmanager !!</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_A-97gGclEeyjWNPcOdacQA">
+      <body>explain about control centre</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_omSJwG4REeyzj83IfwC89A" annotatedElement="_UBx8QG1TEeyzj83IfwC89A">
+      <body>In initialization operation, basically it checks,if current locale supports English Number interpretation, load the simulation &quot;Core&quot; Libraries from &quot;core_libs.txt&quot; then load &quot;cfg_manager&quot; library using &quot;LibManager&quot; class.  cfg_manager setups configurations correctly</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_bR-IsG6NEeyzj83IfwC89A" annotatedElement="_Oo1d8G6NEeyzj83IfwC89A">
+      <body>SimulatorInterface class's methods can control simulation, handle simulation content, loading scenes, handling physics, graphics and Plugins. Returns the calculated simulation time + the start timestamp
+</body>
+    </ownedComment>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_q7J9MG1SEeyzj83IfwC89A" target="_xIw40GcZEeyjWNPcOdacQA" source="_De2xQGcYEeyjWNPcOdacQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_A2wR0G1TEeyzj83IfwC89A" target="_hVRAUGcYEeyjWNPcOdacQA" source="_xIw40GcZEeyjWNPcOdacQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LapScG3DEeyzj83IfwC89A" name="Initialization is not done" target="_UBx8QG1TEeyzj83IfwC89A" source="_hVRAUGcYEeyjWNPcOdacQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xc8d4G4QEeyzj83IfwC89A" target="_wGYwEG4PEeyzj83IfwC89A" source="_UBx8QG1TEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_D-GLMG7dEeyzj83IfwC89A" target="_y43lEG7bEeyzj83IfwC89A" source="_wGYwEG4PEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JQn0wG7dEeyzj83IfwC89A" name="&quot;coreConfig&quot; File is not Available" target="_JP2_wG7dEeyzj83IfwC89A" source="_y43lEG7bEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-bnIIG7eEeyzj83IfwC89A" name="&quot;coreConfig&quot; File is Available" target="_-a9A0G7eEeyzj83IfwC89A" source="_y43lEG7bEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9AdG0G7gEeyzj83IfwC89A" target="_5olzIG7gEeyzj83IfwC89A" source="_-a9A0G7eEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__mWyEG7gEeyzj83IfwC89A" target="_5olzIG7gEeyzj83IfwC89A" source="_JP2_wG7dEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6hIwcG77Eeyzj83IfwC89A" target="_ybmMsG77Eeyzj83IfwC89A" source="_5olzIG7gEeyzj83IfwC89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9PKc8G77Eeyzj83IfwC89A" name="GUI is not Loaded" target="_9OZn8G77Eeyzj83IfwC89A" source="_ybmMsG77Eeyzj83IfwC89A"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_De2xQGcYEeyjWNPcOdacQA" name="InitialNode1" outgoing="_q7J9MG1SEeyzj83IfwC89A"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_hVRAUGcYEeyjWNPcOdacQA" incoming="_A2wR0G1TEeyzj83IfwC89A" outgoing="_LapScG3DEeyzj83IfwC89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xIw40GcZEeyjWNPcOdacQA" name="Read Arguments" incoming="_q7J9MG1SEeyzj83IfwC89A" outgoing="_A2wR0G1TEeyzj83IfwC89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_4LaNcGcfEeyjWNPcOdacQA" name="Get the simulation"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EwCLoGcgEeyjWNPcOdacQA" name="Read simulator Arguments"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ge2moGchEeyjWNPcOdacQA" name="Load default Configurations "/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_UBx8QG1TEeyzj83IfwC89A" name="Initialize" incoming="_LapScG3DEeyzj83IfwC89A" outgoing="_xc8d4G4QEeyzj83IfwC89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_wGYwEG4PEeyzj83IfwC89A" name="Load Core Libraries" incoming="_xc8d4G4QEeyzj83IfwC89A" outgoing="_D-GLMG7dEeyzj83IfwC89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Oo1d8G6NEeyzj83IfwC89A" name="Cast Simulation Library &quot;mars_sim&quot;"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_y43lEG7bEeyzj83IfwC89A" incoming="_D-GLMG7dEeyzj83IfwC89A" outgoing="_JQn0wG7dEeyzj83IfwC89A _-bnIIG7eEeyzj83IfwC89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_JP2_wG7dEeyzj83IfwC89A" name="Load Default Core Libraries" incoming="_JQn0wG7dEeyzj83IfwC89A" outgoing="__mWyEG7gEeyzj83IfwC89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-a9A0G7eEeyzj83IfwC89A" name="Load from &quot;coreConfigFile&quot;" incoming="_-bnIIG7eEeyzj83IfwC89A" outgoing="_9AdG0G7gEeyzj83IfwC89A"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_5olzIG7gEeyzj83IfwC89A" incoming="_9AdG0G7gEeyzj83IfwC89A __mWyEG7gEeyzj83IfwC89A" outgoing="_6hIwcG77Eeyzj83IfwC89A"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_ybmMsG77Eeyzj83IfwC89A" incoming="_6hIwcG77Eeyzj83IfwC89A" outgoing="_9PKc8G77Eeyzj83IfwC89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_9OZn8G77Eeyzj83IfwC89A" name="Load Gui Related Libraries" incoming="_9PKc8G77Eeyzj83IfwC89A"/>
+  </packagedElement>
+</uml:Model>
