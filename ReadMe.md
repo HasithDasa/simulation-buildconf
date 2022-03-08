@@ -140,12 +140,7 @@ Those components are:
 
 ![Package Diagram of EnvireMars](diagrams/Umbrello/Envire_MARS_Package_Diagrams/Package_Diagram.svg)
 
-This Package Diagram can be edited by using UML designing tool called ["Umbrello"](https://umbrello.kde.org). Source files are inside the [Envire_MARS_Package_Diagrams](diagrams/Umbrello/Envire_MARS_Package_Diagrams) folder.
-
-
-##### Note
-
-Umbrello is used only for this diagram and it's not used anymore.
+This Package Diagram was edited with ["Umbrello"](https://umbrello.kde.org) but we encountered problems with the tool and we are not using it anymore, for new diagrams we use [papyrus](https://www.eclipse.org/papyrus/index.php). The source files are inside the [Envire_MARS_Package_Diagrams](diagrams/Umbrello/Envire_MARS_Package_Diagrams) folder.
 
 #### 2) Activity Diagram of EnvireMars
 
