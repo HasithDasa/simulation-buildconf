@@ -80,21 +80,8 @@ Similarly, sometimes you don't have access to the specific Repository forexample
 "No Access Rights to git@git.hb.dfki.de/models-environments" 
 In this case, you have to make an access request to the maintainer/owner of that Repository. 
 
-2- PROGRAM STUCKS AFTER ENTERING ` autoproj update `
-
-If you are on step NO:05 and your program got stuck while checking out Models Environment and Models Robots. 
-
-You can checkout each robot/environment separately to overcome this problem.
-
-Let say  we need to install spacebot_cup robot.
-Todo so use:
-```    
-    $ autoproj update models/environments/spacebot_cup
-```              
-Similarly do same for all the other robots like asguard_v4 etc.
-
     
-3- AFTER ENTERING ` autoproj build `.
+2- AFTER ENTERING ` autoproj build `.
 
 Maybe you get an error "CMake fails to compile the simple test".
 There are two possibilites to overcome this problem: 
@@ -102,8 +89,9 @@ There are two possibilites to overcome this problem:
 First of all install build essential using the correspondent command:
 ```    
     $ sudo apt install build-essential
-```              
-If you are still having the same error, then you can try by removing ccache. The default configuration does not use ccache but sometimes errors are triggered if it installed but not selected for use. You can remove ccache with
+```
+
+If you are still having the same error, then you can try by removing ccache. The default configuration does not use ccache but sometimes errors are triggered if it was installed but not selected for use. You can remove ccache with
 ```
      $ apt-get remove ccache
 ```
